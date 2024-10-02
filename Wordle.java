@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.stream.*;
 import java.io.*;
 
+
 public class Wordle {
     String puzzle;
     Set<String> dictionary;
