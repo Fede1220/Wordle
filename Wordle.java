@@ -24,7 +24,7 @@ public class Wordle {
     }
 
     public static Set<String> loadDictionary() {
-        String dictfile = "/workspaces/classcode/words_alpha.txt";
+        String dictfile = "/workspaces/Wordle/valid-wordle-words.txt";
         Set<String> dictionary = new TreeSet<>();
         try {
             BufferedReader br = new BufferedReader(new FileReader(dictfile));
